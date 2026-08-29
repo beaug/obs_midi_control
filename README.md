@@ -40,7 +40,7 @@ Windows 11, 64-bit:
 3. Open **x64 Native Tools Command Prompt for VS 2022** and run:
 
 ```bat
-cd path\to\obs-midi-hotkeys
+cd path\to\obs_midi_control
 cmake --preset windows-x64
 cmake --build build_x64 --config RelWithDebInfo
 ```
@@ -55,7 +55,7 @@ copy /Y data\locale\en-US.ini "%ProgramFiles%\obs-studio\data\obs-plugins\obs-mi
 
 ## Opening The Plugin
 
-In OBS go to Tools and then Midi Hot Keys
+In OBS go to Tools and then Midi Hotkeys
 
 <img width="228" height="237" alt="image" src="https://github.com/user-attachments/assets/1ec8cea1-fd03-4912-bec8-ad620f9f6e3c" />
 
@@ -86,7 +86,7 @@ The plugin will await midi input then auto learn from the message
 
 Repeat for other mappings you want to add and then click on "Save" to save the mappings. 
 
-At the moment the mappings don't persist e.g. if you close and reopen OBS you need to redo the mappings - something that will hopefully be fixed in a future release
+Mappings persist via writes to mappings.json in the plugin config dir. If mappings don’t come back after restart, open an issue.
 
 ### Example Use Cases
 
