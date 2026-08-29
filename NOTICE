@@ -1,0 +1,33 @@
+Licensing and attribution
+=========================
+
+obs-midi-hotkeys is released under the GNU General Public License
+version 2 or later. The full license text is in LICENSE.
+
+This project is a remake inspired by obs-midi-mg and keeps that
+project's license terms.
+
+  obs-midi-mg
+  Copyright (C) 2022-2026 nhielost <nhielost@gmail.com>
+  https://github.com/nhielost/obs-midi-mg
+  Licensed under the GNU General Public License v2 or later.
+
+  Many ideas in this plugin (MIDI message types mapped to OBS
+  actions and hotkeys, Learn-style capture, bindings) originate
+  there. obs-midi-mg itself credits @cpyarger and @Alzy / obs-midi
+  for earlier inspiration:
+  https://github.com/cpyarger/obs-midi/
+
+Build scaffolding is based on the OBS Studio plugin template:
+
+  Copyright (C) OBS Project contributors
+  https://github.com/obsproject/obs-plugintemplate
+  Licensed under the GNU General Public License v2 or later.
+
+Vendored third-party code
+-------------------------
+
+  deps/rtmidi/  RtMidi 6.0.0
+  Copyright (c) 2003-2023 Gary P. Scavone
+  https://github.com/thestk/rtmidi
+  MIT-style license (see deps/rtmidi/LICENSE)
