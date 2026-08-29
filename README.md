@@ -1,5 +1,16 @@
 # obs-midi-hotkeys
 
+This plugin was created to allow the use of an Airstep to control functions inside of OBS but it should also work with other MIDI devices.
+
+This plugin is a remake inspired by
+[obs-midi-mg](https://github.com/nhielost/obs-midi-mg) by
+[nhielost](https://github.com/nhielost).
+
+obs-midi-mg itself credits
+[cpyarger](https://github.com/cpyarger) and
+[Alzy](https://github.com/alzy) /
+[obs-midi](https://github.com/cpyarger/obs-midi/).
+
 ## Features
 
 This is based on my own testing but some of the things I was testing (in Windows 11 x64 OBS Version 32.2.2 64 Bit):
@@ -81,17 +92,6 @@ At the moment the mappings don't persist e.g. if you close and reopen OBS you ne
 
 - Scene switching for multiple camera angles
 - Trigger Start/Stop Stream or Recording
-
-## Credits
-
-This plugin is a remake inspired by
-[obs-midi-mg](https://github.com/nhielost/obs-midi-mg) by
-[nhielost](https://github.com/nhielost).
-
-obs-midi-mg itself credits
-[cpyarger](https://github.com/cpyarger) and
-[Alzy](https://github.com/alzy) /
-[obs-midi](https://github.com/cpyarger/obs-midi/).
 
 ## Resources
 
