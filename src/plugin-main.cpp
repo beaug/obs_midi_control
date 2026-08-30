@@ -78,6 +78,7 @@ void openWindow()
 {
 	if (!g_window)
 		return;
+	g_window->loadFrom(loadConfig());
 	g_window->show();
 	g_window->raise();
 	g_window->activateWindow();
