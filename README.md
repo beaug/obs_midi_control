@@ -86,7 +86,9 @@ The plugin will await midi input then auto learn from the message
 
 Repeat for other mappings you want to add and then click on "Save" to save the mappings. 
 
-Mappings persist via writes to mappings.json in the plugin config dir. If mappings don’t come back after restart, open an issue.
+The mappings persist via this file - so you can back it up if you are moving to a new machine
+
+``` %APPDATA%\obs-studio\plugin_config\obs-midi-hotkeys\mappings.json ```
 
 ### Example Use Cases
 
