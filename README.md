@@ -102,6 +102,7 @@ Creating this project required learning more about MIDI, if you are interested i
 - Scott Uhl explaining the Midi funnel https://youtu.be/IoUtshlzCTo?si=bq2qdnwbg2FTeH-9
 - Learning How MIDI Works https://www.youtube.com/watch?v=YrBo3KuUsbg
 - The history of MIDI https://youtu.be/cd-9mx_p4Xs?si=06h8BuHnQqRWT935
+- Dave Smith https://en.wikipedia.org/wiki/Dave_Smith_(engineer)
 
 ## Licences
 License and credits: see [LICENSE](LICENSE) and [NOTICE](NOTICE).
