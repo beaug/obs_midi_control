@@ -113,7 +113,11 @@ SettingsWindow::SettingsWindow(MidiEngine *engine, QWidget *parent)
 
 void SettingsWindow::loadFrom(const PluginConfig &cfg)
 {
+	const QSignalBlocker blockListen(listen_ch_box_);
+	const QSignalBlocker blockDevice(device_box_);
+
 	cfg_ = cfg;
+
 	const int devIdx = device_box_->findText(cfg_.device_name);
 	if (devIdx >= 0)
 		device_box_->setCurrentIndex(devIdx);
