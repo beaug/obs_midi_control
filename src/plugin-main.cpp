@@ -121,11 +121,13 @@ bool obs_module_load(void)
 
 void obs_module_unload(void)
 {
-	if (g_window) {
-		g_window->hide();
-		delete g_window;
-		g_window = nullptr;
-	}
+	if (g_engine)
+		g_engine->close();
+
+	/* Do not delete the dialog here. It is parented to the OBS main
+	 * window; Qt is already destroying that tree during shutdown. */
+	g_window = nullptr;
+
 	delete g_engine;
 	g_engine = nullptr;
 	obs_log(LOG_INFO, "unloaded");
